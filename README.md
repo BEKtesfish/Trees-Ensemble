@@ -59,7 +59,7 @@ The dataset contains 11 features that can be used to predict the likelihood of h
 * Hyperparameter Tuning: Parameters such as n_estimators and learning_rate are manually set. Early stopping is used to prevent overfitting.
 * Results: The model is evaluated on the training and testing datasets, and accuracy scores are printed.
 
-### Evaluation
+## Evaluation
 
 The accuracy scores for each model are compared to identify the best-performing model. Results indicate that while all models generalize well to the test set, XGBoost offers the highest training accuracy, but its test set accuracy is on par with Random Forest.
 
